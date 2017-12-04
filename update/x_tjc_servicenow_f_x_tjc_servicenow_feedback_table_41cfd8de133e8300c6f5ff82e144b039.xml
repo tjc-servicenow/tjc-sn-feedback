@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_tjc_servicenow_f_x_tjc_servicenow_feedback_table">
+    <x_tjc_servicenow_f_x_tjc_servicenow_feedback_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <feedback>Feedback notification test 3. 3rd times the charm. </feedback>
+        <number>SER0001017</number>
+        <rejection_reason/>
+        <state>0</state>
+        <submitted_by display_value="Joshua Holcomb (Admin)">bddc50fc139692008e51735fd144b0c1</submitted_by>
+        <sys_class_name>x_tjc_servicenow_f_x_tjc_servicenow_feedback_table</sys_class_name>
+        <sys_created_by>jha</sys_created_by>
+        <sys_created_on>2017-12-04 21:11:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>41cfd8de133e8300c6f5ff82e144b039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SER0001017</sys_name>
+        <sys_package display_value="ServiceNow Feedback" source="x_tjc_servicenow_f">a822a74e13728300c6f5ff82e144b02d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ServiceNow Feedback">a822a74e13728300c6f5ff82e144b02d</sys_scope>
+        <sys_update_name>x_tjc_servicenow_f_x_tjc_servicenow_feedback_table_41cfd8de133e8300c6f5ff82e144b039</sys_update_name>
+        <sys_updated_by>jha</sys_updated_by>
+        <sys_updated_on>2017-12-04 21:11:59</sys_updated_on>
+    </x_tjc_servicenow_f_x_tjc_servicenow_feedback_table>
+</record_update>

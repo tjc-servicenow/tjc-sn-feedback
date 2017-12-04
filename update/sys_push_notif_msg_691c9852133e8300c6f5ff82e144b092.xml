@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_push_notif_msg">
+    <sys_push_notif_msg action="INSERT_OR_UPDATE">
+        <message_string>New feedback submission ${number}</message_string>
+        <name>New Submission</name>
+        <push_app display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</push_app>
+        <push_message_content display_value="Generic Record Payload">4f9c2ec0d72102006b0f8ebc5e610327</push_message_content>
+        <subject/>
+        <sys_class_name>sys_push_notif_msg</sys_class_name>
+        <sys_created_by>jha</sys_created_by>
+        <sys_created_on>2017-12-04 20:56:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>691c9852133e8300c6f5ff82e144b092</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Submission</sys_name>
+        <sys_package display_value="ServiceNow Feedback" source="x_tjc_servicenow_f">a822a74e13728300c6f5ff82e144b02d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ServiceNow Feedback">a822a74e13728300c6f5ff82e144b02d</sys_scope>
+        <sys_update_name>sys_push_notif_msg_691c9852133e8300c6f5ff82e144b092</sys_update_name>
+        <sys_updated_by>jha</sys_updated_by>
+        <sys_updated_on>2017-12-04 20:56:24</sys_updated_on>
+        <table>x_tjc_servicenow_f_x_tjc_servicenow_feedback_table</table>
+        <type>push</type>
+    </sys_push_notif_msg>
+</record_update>

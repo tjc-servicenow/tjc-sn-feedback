@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<div class="alert alert-info">
+<p>Use this from to submit any suggestions and feedback for ServiceNow. This can include, but not limited to:</p>
+<ul style="list-style-position: inside;"><li>Email notifications</li><li>Service Portal</li><li>Knowledge base content you would like to see added</li><li>Suggestions on how to make the system easier to use</li><li>New Forms/Improve new forms</li></ul>
+<p>Please note if your idea is considered, someone maybe reaching out for you for more details on your idea so get your notepads ready!</p>
+<p> </p>
+<p>If you are trying to report an issue or get help with something, please click on the Report an Issue link on the homepage. </p>
+</div>]]></description>
+        <entitlement_script/>
+        <group/>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>ServiceNow Feedback/Suggestions</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=2c95ac1a137e8300c6f5ff82e144b078&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <roles/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script/>
+        <short_description>This is used to submit any feedback or suggestions for ServiceNow. </short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>jha</sys_created_by>
+        <sys_created_on>2017-12-04 21:36:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2c95ac1a137e8300c6f5ff82e144b078</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ServiceNow Feedback/Suggestions</sys_name>
+        <sys_package display_value="ServiceNow Feedback" source="x_tjc_servicenow_f">a822a74e13728300c6f5ff82e144b02d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ServiceNow Feedback">a822a74e13728300c6f5ff82e144b02d</sys_scope>
+        <sys_update_name>sc_cat_item_producer_2c95ac1a137e8300c6f5ff82e144b078</sys_update_name>
+        <sys_updated_by>jha</sys_updated_by>
+        <sys_updated_on>2017-12-04 21:45:45</sys_updated_on>
+        <table_name>x_tjc_servicenow_f_x_tjc_servicenow_feedback_table</table_name>
+        <template/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=2c95ac1a137e8300c6f5ff82e144b078"/>
+    <fx_price action="delete_multiple" query="id=2c95ac1a137e8300c6f5ff82e144b078"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>2c95ac1a137e8300c6f5ff82e144b078</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jha</sys_created_by>
+        <sys_created_on>2017-12-04 21:36:59</sys_created_on>
+        <sys_id>ec95ac1a137e8300c6f5ff82e144b079</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jha</sys_updated_by>
+        <sys_updated_on>2017-12-04 21:36:59</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>2c95ac1a137e8300c6f5ff82e144b078</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jha</sys_created_by>
+        <sys_created_on>2017-12-04 21:36:59</sys_created_on>
+        <sys_id>a095ac1a137e8300c6f5ff82e144b07b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jha</sys_updated_by>
+        <sys_updated_on>2017-12-04 21:36:59</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

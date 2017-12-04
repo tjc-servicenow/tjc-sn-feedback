@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="ServiceNow Feedback Table" max_length="40" name="x_tjc_servicenow_f_x_tjc_servicenow_feedback_table" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    <element attributes="update_synch=true" extends="sys_metadata" label="ServiceNow Feedback Table" max_length="40" name="x_tjc_servicenow_f_x_tjc_servicenow_feedback_table" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Feedback" max_length="4000" name="feedback" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Rejection Reason" max_length="4000" name="rejection_reason" type="string"/>
+        <element choice="3" default="0" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element label="Reviewing" sequence="0" value="0"/>
+                <element label="Under Consideration" sequence="1" value="1"/>
+                <element label="Implementing" sequence="2" value="2"/>
+                <element label="Completed" sequence="3" value="3"/>
+                <element label="Rejected" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element default="javascript: gs.getUserID()" label="Submitted By" max_length="32" name="submitted_by" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="submitted_by"/>
+        </index>
     </element>
 </database>

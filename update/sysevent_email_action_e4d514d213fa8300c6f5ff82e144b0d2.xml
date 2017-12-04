@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="ServiceNow Feedback">26c5dcd213fa8300c6f5ff82e144b0a3</category>
+        <collection>x_tjc_servicenow_f_x_tjc_servicenow_feedback_table</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table>x_tjc_servicenow_f_x_tjc_servicenow_feed</item_table>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p style="color: #808080; font-family: helvetica; font-size: medium; font-weight: bold;">${submitted_by} has submitted a new feedback/suggestion for ServiceNow.</p>
+<p style="color: #808080; font-family: helvetica; font-size: small;">Feedback: ${feedback}</p>
+<p>&nbsp;</p>
+<p style="color: #808080; font-family: helvetica; font-size: small;">${URI_REF}</p>]]></message_html>
+        <message_list>691c9852133e8300c6f5ff82e144b092</message_list>
+        <message_text/>
+        <name>New Submission</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups name="ServiceNow Feedback Users">4f06181613fa8300c6f5ff82e144b0f4</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${number}: ${feedback}</subject>
+        <subscribable>true</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>jha</sys_created_by>
+        <sys_created_on>2017-12-04 20:28:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e4d514d213fa8300c6f5ff82e144b0d2</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>New Submission</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow Feedback" source="x_tjc_servicenow_f">a822a74e13728300c6f5ff82e144b02d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ServiceNow Feedback">a822a74e13728300c6f5ff82e144b02d</sys_scope>
+        <sys_update_name>sysevent_email_action_e4d514d213fa8300c6f5ff82e144b0d2</sys_update_name>
+        <sys_updated_by>jha</sys_updated_by>
+        <sys_updated_on>2017-12-04 21:11:28</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
